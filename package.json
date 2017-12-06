@@ -11,8 +11,7 @@
     "globby": "^6.1.0",
     "patternengine-node-handlebars": "^1.0.3",
     "patternlab-node": "^2.11.0",
-    "styleguidekit-assets-default": "^3.5.0",
-    "styleguidekit-mustache-default": "^3.0.0",
+    "styleguidekit-vuejs-default": "^1.0.0",
     "webpack": "^3.10.0",
     "webpack-config-utils": "^2.3.0",
     "webpack-merge": "^4.1.0"
