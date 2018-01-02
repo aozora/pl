@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "timestamp": 1512573270274,
+  "timestamp": 1512741427185,
   "graph": {
     "options": {
       "directed": true,
@@ -315,13 +315,13 @@
         }
       },
       {
-        "v": "/Users/marcello.palmitessa/projects/pl/source/_meta/_00-head.mustache",
+        "v": "/Users/marcello/projects/pl/source/_meta/_00-head.mustache",
         "value": {
           "compileState": null
         }
       },
       {
-        "v": "/Users/marcello.palmitessa/projects/pl/source/_meta/_01-foot.mustache",
+        "v": "/Users/marcello/projects/pl/source/_meta/_01-foot.mustache",
         "value": {
           "compileState": null
         }
