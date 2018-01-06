@@ -8,7 +8,7 @@
       "meta": "./source/_meta/",
       "annotations": "./source/_annotations/",
       "styleguide": "./node_modules/styleguidekit-vuejs-default/dist/",
-      "patternlabFiles": "./node_modules/styleguidekit-vuejs-default/views/",
+      "patternlabFiles": "./node_modules/styleguidekit-vuejs-default/styleguide/views/",
       "js": "./source/js/",
       "images": "./source/images/",
       "fonts": "./source/fonts/",
