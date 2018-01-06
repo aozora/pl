@@ -38,10 +38,10 @@
   "defaultPattern": "all",
   "defaultShowPatternInfo": false,
   "cleanPublic" : true,
-  "patternExtension": "mustache",
+  "patternExtension": "hbs",
   "ignored-extensions" : ["scss", "sass", "DS_Store", "less"],
   "ignored-directories" : ["scss", "sass"],
-  "debug": false,
+  "logLevel": "debug",
   "ishControlsHide": {
     "s": false,
     "m": false,

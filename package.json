@@ -34,7 +34,7 @@
     "event-hooks-webpack-plugin": "^1.0.0",
     "globby": "^7.1.1",
     "patternengine-node-handlebars": "^1.0.3",
-    "patternlab-node": "^2.11.0",
+    "patternlab-node": "^2.12.0",
     "webpack": "^3.10.0",
     "webpack-config-utils": "^2.3.0",
     "webpack-merge": "^4.1.0"

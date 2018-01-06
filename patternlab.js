@@ -8,9 +8,11 @@ function getConfiguredCleanOption() {
 }
 
 function build(done) {
-  done = done || function(){};
+  done = done || function () {
+  };
 
-  const buildResult = patternlab.build(() => {}, getConfiguredCleanOption());
+  const buildResult = patternlab.build(() => {
+  }, getConfiguredCleanOption());
 
   // handle async version of Pattern Lab
   if (buildResult instanceof Promise) {
@@ -24,12 +26,13 @@ function version() {
   patternlab.version();
 }
 
-function help(){
+function help() {
   patternlab.help();
 }
 
 function patternsonly() {
-  function noop(){}
+  function noop() {
+  }
 
   patternlab.patternsonly(noop, plConfig.cleanPublic);
 }
@@ -39,8 +42,8 @@ function liststarterkits() {
 }
 
 function loadstarterkit(kit, clean) {
-  
-  if(!clean) {
+
+  if (!clean) {
     clean = false;
   }
   patternlab.loadstarterkit(kit, clean);
@@ -50,8 +53,8 @@ function installplugin(plugin) {
   patternlab.installplugin(plugin);
 }
 
-for (var i=0; i < process.argv.length; i++) {
-  
+for (var i = 0; i < process.argv.length; i++) {
+
   switch (process.argv[i]) {
     case 'build':
       build();
@@ -69,18 +72,18 @@ for (var i=0; i < process.argv.length; i++) {
       liststarterkits();
       break;
     case 'loadstarterkit':
-      if(process.env.npm_config_kit) {
+      if (process.env.npm_config_kit) {
         loadstarterkit(process.env.npm_config_kit, process.env.npm_config_clean);
       } else {
         console.info("====[ Pattern Lab Error: No Valid Kit Found ]====");
       }
       break;
     case 'installplugin':
-      if(process.env.npm_config_plugin) {
+      if (process.env.npm_config_plugin) {
         installplugin(process.env.npm_config_plugin);
       } else {
         console.info("====[ Pattern Lab Error: No Valid Plugin Found ]====");
       }
-    break;
+      break;
   }
 }

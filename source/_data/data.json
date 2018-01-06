@@ -260,7 +260,7 @@
 			"id" : "panel2",
 			"hasCaption": false,
 			"hasImage" : true,
-			"src" : "../../img/orbit-1.jpg"
+			"src" : "https://placeimg.com/1200/800/nature"
 		},
 		{
 			"number" : "three",
@@ -273,7 +273,7 @@
 			"id" : "panel4",
 			"hasCaption": false,
 			"hasImage" : true,
-			"src" : "../../img/orbit-3.jpg"
+			"src" : "https://placeimg.com/1200/800/nature"
 		}
 	],
 	"videoSrc" : "https://www.youtube.com/embed/i7gIpuIVE3k",
@@ -281,22 +281,22 @@
 	"orbitSlide" : [
 		{
 			"activeClass" : "is-active",
-			"src" : "../../img/orbit-1.jpg",
+			"src" : "https://placeimg.com/1200/800/nature",
 			"alt" : "Galaxy",
 			"text" : "To Infinity And Beyond"	
 		},
 		{
-			"src" : "../../img/orbit-2.jpg",
+			"src" : "https://placeimg.com/1200/800/nature",
 			"alt" : "Space Shuttle",
 			"text" : "Blast Off!"	
 		},
 		{
-			"src" : "../../img/orbit-3.jpg",
+			"src" : "https://placeimg.com/1200/800/nature",
 			"alt" : "USA Space Capsule",
 			"text" : "Houston, We've Got A Problem"	
 		},
 		{
-			"src" : "../../img/orbit-4.jpg",
+			"src" : "https://placeimg.com/1200/800/nature",
 			"alt" : "Space",
 			"text" : "Out Of This World"	
 		}
