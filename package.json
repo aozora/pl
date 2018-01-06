@@ -2,19 +2,6 @@
   "name": "edition-node-webpack",
   "description": "A pure wrapper around patternlab-node core, the default pattern engine, and supporting frontend assets.",
   "version": "1.0.3",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-es2015": "^6.24.1",
-    "copy-webpack-plugin": "^4.2.3",
-    "event-hooks-webpack-plugin": "^1.0.0",
-    "globby": "^6.1.0",
-    "patternengine-node-handlebars": "^1.0.3",
-    "patternlab-node": "^2.11.0",
-    "webpack": "^3.10.0",
-    "webpack-config-utils": "^2.3.0",
-    "webpack-merge": "^4.1.0"
-  },
   "repository": "git@github.com:Comcast/patternlab-edition-node-webpack.git",
   "bugs": "https://github.com/Comcast/patternlab-edition-node-webpack/issues",
   "author": "Matt Bulfair <Matt_Bulfair@comcast.com>",
@@ -39,7 +26,20 @@
   "engines": {
     "node": ">=5.0"
   },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "copy-webpack-plugin": "^4.3.1",
+    "event-hooks-webpack-plugin": "^1.0.0",
+    "globby": "^7.1.1",
+    "patternengine-node-handlebars": "^1.0.3",
+    "patternlab-node": "^2.11.0",
+    "webpack": "^3.10.0",
+    "webpack-config-utils": "^2.3.0",
+    "webpack-merge": "^4.1.0"
+  },
   "devDependencies": {
-    "webpack-dev-server": "^2.9.5"
+    "webpack-dev-server": "^2.9.7"
   }
 }
